@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
@@ -69,9 +69,6 @@ The adjacency matrix feeding the GNN can be built two ways — full correlation 
 
 ![Partial correlation adjacency matrix](assets/adj_partial.png)
 
-**Degree distribution** — which stocks act as hubs in the Pearson graph. BLK, HD, ACN, MA, BRK-B sit at the top, meaning they're correlated with the broadest set of other assets — consistent with their role as large, diversified, market-bellwether companies:
-
-![Degree distribution](assets/degree_dist.png)
 
 ---
 
