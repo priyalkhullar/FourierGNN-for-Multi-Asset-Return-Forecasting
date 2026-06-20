@@ -63,11 +63,11 @@ The adjacency matrix feeding the GNN can be built two ways — full correlation 
 
 **Pearson correlation** — dense, as expected for equities (the whole market tends to move together):
 
-![Pearson adjacency matrix](assets/adj_pearson.png)
+![Pearson adjacency matrix](adj_pearson.png)
 
 **Partial correlation (Graphical Lasso)** — controls for all other assets, leaving only *direct* relationships. This is far more interpretable, and it recovers genuine business relationships without being told about them: **MA↔V** (Mastercard/Visa, same payments duopoly), **CVX↔XOM** (both oil majors), **DHR↔TMO** (both life-sciences instrumentation), **BAC↔JPM** (both money-center banks):
 
-![Partial correlation adjacency matrix](assets/adj_partial.png)
+![Partial correlation adjacency matrix](adj_partial.png)
 
 
 ---
